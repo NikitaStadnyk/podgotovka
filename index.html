@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <html lang="pl-PL">
+    <style>
+       .imie {
+            color : red;
+            font-family:Arial;
+            text-align: center;
 
+         }
+        .data {
+            color : green;
+            font-family:Arial;
+            text-align: center;
+
+         }
+        .klasa {
+            color : orange;
+            font-family:Arial;
+            text-align: center;
+
+         }
+         .el {
+               font-family:Arial;
+               display: flex;
+               align-items: center;
+               position: absolute;   
+            }
+
+    </style>
+ </head>
+ <body>
+   <h1 class="imie">Stadnyk Mykyta</h1>
+   <h1 class="data">08.03.23</h1>
+   <h1 class="klasa">2fg2</h1>
+ 	<div align="center">
+      <map id="mapa_Stadnyk" name="mapa_Stadnyk">
+        <area shape="circle" coords="69,80,40" href="start.html" alt="tekst">
+        <area shape="rect" coords="20,138,139,188" href="start.html" alt="tekst">
+        <area shape="poly" coords="229,107,178,188,279,188" href="glowny_Stadnyk.html" alt="tekst">
+      </map>
+ 	   <img src="mapa.png" alt="tekst" usemap="#mapa_Stadnyk" width="315" height="208">
+ 	</div>
+ </body>
+</html>
